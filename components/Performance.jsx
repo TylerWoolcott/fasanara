@@ -6,8 +6,8 @@ const Performance = () => {
     return (
         <div className='py-[80px] px-[8.33333vw] '>
             <div className='lg:flex max-w-[1224px] mx-auto justify-between items-center'>
-                <div className="lg:w-[40%] mb-[100px] lg:mb-0">
-                    <p className='text-[32px] font-extrabold mb-[32px]'>
+                <div className="lg:w-[40%] mb-[60px] lg:mb-0">
+                    <p className='text-[32px] font-bold mb-[32px]'>
                     Exceptional Performance
                     </p>
                     <p className="text-[18px]">
