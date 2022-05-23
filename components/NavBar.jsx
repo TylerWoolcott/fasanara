@@ -6,7 +6,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import Image from 'next/image'
 import { IconContext } from "react-icons";
 
-import logo from "../../images/logo.png";
+import logo from "../images/logo.png";
 
 const NavBarItem = ({ title, classprops }) => (
   <li className={`mx-4 cursor-pointer ${classprops}`}>{title}</li>

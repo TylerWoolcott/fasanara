@@ -60,5 +60,3 @@ export const useTypedWord = (words) => {
 
     return typedWord
 }
-
-export default useTypedWord;

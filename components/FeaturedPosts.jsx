@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
-import city from "../../images/city.jpg";
-import subway from "../../images/subway.jpg";
+import city from "../images/city.jpg";
+import subway from "../images/subway.jpg";
 
 const Welcome = () => {
     return (

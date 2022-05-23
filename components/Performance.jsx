@@ -1,6 +1,6 @@
 import Image from "next/image"
 
-import performance from "../../images/performance.svg"
+import performance from "../images/performance.svg"
 
 const Performance = () => {
     return (

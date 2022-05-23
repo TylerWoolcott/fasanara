@@ -1,11 +1,11 @@
 import Image from "next/image";
-import quant from "../../images/quant.jpg";
+import train from "../images/train.jpeg";
 
-const Quant = () => {
+const Fintech = () => {
   
     return (
-        <>
-        <a href="#">
+        <div>
+        <a href="#" >
             <div className="bg-[#181918] m-4 flex flex-1
                 2xl:min-w-[450px]
                 2xl:max-w-[500px]
@@ -16,12 +16,12 @@ const Quant = () => {
             >
                 <div className="flex flex-col items-center w-full mt-3">
                 <div className="display-flex justify-start w-full mb-6 p-2">
-                    <p className="text-[1.4rem] text-center mb-[12px] text-white font-bold">Fasanara Quant</p>
-                    <p className="text-center mb-[2px] text-white">Quant Network</p>
-                    <p className="text-center mb-[2px] text-white">Liquid Assets Trading</p>
+                    <p className="text-[1.4rem] text-center mb-[12px] text-white font-bold">Fasanara Fintech</p>
+                    <p className="text-center mb-[2px] text-white">Alternative Credit</p>
+                    <p className="text-center mb-[2px] text-white">Digital Lending</p>
                 </div>
-                <Image src={quant} 
-                    alt="quant"  
+                <Image src={train} 
+                    alt="train"  
                     height={480}
                     width={720}
                     objectFit="cover"
@@ -30,8 +30,8 @@ const Quant = () => {
                 </div>
             </div>
         </a>
-        </>
+        </div>
     );
   };
 
-  export default Quant;
+  export default Fintech;

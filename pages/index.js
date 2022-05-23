@@ -1,4 +1,4 @@
-import { NavBar, HomeHero, FeaturedPosts, Companies, Performance, Footer, Funds } from './components'
+import { NavBar, HomeHero, FeaturedPosts, Companies, Performance, Footer, Funds } from '../components'
 
 export default function Home() {
   return (
