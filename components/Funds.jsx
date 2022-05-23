@@ -12,7 +12,7 @@ import Ventures from "./CardTypes/Ventures";
           <div className="flex flex-wrap justify-center items-center mt-10">
               <Fintech />
               <Quant />
-              {/* <Digital /> */}
+              <Digital />
               <Ventures />
           </div>
         </div>
