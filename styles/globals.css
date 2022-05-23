@@ -39,7 +39,6 @@ body {
     display: inline-block; } 
   }
 
-
   .col-md-lg-5 {
       flex: 0 0 auto;
       flex-basis: 20.83333vw;
