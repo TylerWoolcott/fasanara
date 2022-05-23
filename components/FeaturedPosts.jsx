@@ -5,7 +5,7 @@ import subway from "../images/subway.jpg";
 
 const Welcome = () => {
     return (
-        <div className='pt-[160px] pb-[50px] px-[8.33333vw] text-center'>
+        <div className='md:pt-[160px] pt-[80px] pb-[50px] px-[8.33333vw] text-center'>
             <div className=''>
                 <ul className='md:grid grid-cols-[repeat(2,_1fr)] md:gap-28 list-none'>
                     <li className='mb-[64px]'>
