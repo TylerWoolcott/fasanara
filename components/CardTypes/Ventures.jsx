@@ -1,7 +1,7 @@
 import Image from "next/image";
-import digital from "../images/digital.jpeg";
+import technology from "../../images/technology.jpg";
 
-const Digital = () => {
+const Ventures = () => {
   
     return (
         <>
@@ -16,12 +16,12 @@ const Digital = () => {
             >
                 <div className="flex flex-col items-center w-full mt-3">
                 <div className="display-flex justify-start w-full mb-6 p-2">
-                    <p className="text-[1.4rem] text-center mb-[12px] text-white font-bold">Fasanara Digital</p>
-                    <p className="text-center mb-[2px] text-white">Digital Assets</p>
-                    <p className="text-center mb-[2px] text-white">Arbitrage</p>
+                    <p className="text-[1.4rem] text-center mb-[12px] text-white font-bold">Fasanara Ventures</p>
+                    <p className="text-center mb-[2px] text-white">New Technologies</p>
+                    <p className="text-center mb-[2px] text-white">Co-Investments</p>
                 </div>
-                <Image src={digital} 
-                    alt="digital"  
+                <Image src={technology} 
+                    alt="technlogy"  
                     height={480}
                     width={720}
                     objectFit="cover"
@@ -34,4 +34,4 @@ const Digital = () => {
     );
   };
 
-  export default Digital;
+  export default Ventures;

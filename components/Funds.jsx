@@ -1,7 +1,7 @@
-import Fintech from "../CardTypes/Fintech";
-import Quant from "../CardTypes/Quant";
-import Digital from "../CardTypes/Digital";
-import Ventures from "../CardTypes/Ventures";
+import Fintech from "./CardTypes/Fintech";
+import Quant from "./CardTypes/Quant";
+import Digital from "./CardTypes/Digital";
+import Ventures from "./CardTypes/Ventures";
  
   const Funds = () => {
   
