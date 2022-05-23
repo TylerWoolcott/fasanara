@@ -19,7 +19,8 @@ Makes most sense to use **React**, **NextJS**, and **TailwindCSS**, for the fron
  - Some images grow when hovered hover using CSS timing functions.
  - I used Grid and Flexbox on the `companies` and `funds` sections to create a responsive layout.
 - To make my code DRYER, I created a separate `index.js` file in the `components` folder and imported them as named imports into the `App` file.
- - I know that Fasanara Capital use React so it's a useful thing to use!
+- Where styles were being reused in multiple list items, for example, I created a separate component for them, passed props and mappped over the text. 
+- I know that Fasanara Capital use React so it's a useful thing to use!
 
 ## Initial development strategy
 
