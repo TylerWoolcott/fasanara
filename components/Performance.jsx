@@ -20,8 +20,8 @@ const Performance = () => {
                     <Image 
                         src={performance}
                         alt="performance" 
-                        height={480}
-                        width={720}
+                        height={600}
+                        width={580}
                         objectFit="cover"
                         className='drop-shadow rounded'
                     />
